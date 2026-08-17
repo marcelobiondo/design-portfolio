@@ -33,6 +33,24 @@ const translations = {
     'home.facily.company': 'Facily',
     'home.facily.meta': 'Product Design Lead · Logistics',
 
+    /* ---------------------------------
+       Earlier experience
+    --------------------------------- */
+
+    'home.experience.eyebrow': 'Earlier experience',
+
+    'home.experience.assertiva.role': 'Product Designer Lead',
+    'home.experience.assertiva':
+      "Built the company's first official design team, introduced product design practices and helped turn design into a strategic discipline.",
+
+    'home.experience.upx.role': 'Senior UX/UI Designer',
+    'home.experience.upx':
+      'Senior UX/UI Designer working across digital product and experience design.',
+
+    /* ---------------------------------
+       About
+    --------------------------------- */
+
     'home.about.eyebrow': 'About me',
     'home.about.title':
       'Designing digital products and helping teams do their best work.',
@@ -41,6 +59,10 @@ const translations = {
     'home.about.p2':
       'My work lives between understanding the problem, creating clarity and helping people move toward better solutions.',
     'home.about.link': 'More about me ↗',
+
+    /* ---------------------------------
+       Footer
+    --------------------------------- */
 
     'home.footer.eyebrow': 'Let’s talk',
     'home.footer.line1': 'Have a complex problem?',
@@ -60,12 +82,15 @@ const translations = {
     'meutudo.meta.role.label': 'Role',
     'meutudo.meta.role.value': 'Staff Product Designer',
     'meutudo.meta.scope.label': 'Scope',
-    'meutudo.meta.scope.value': 'Canal App · Formalization · Insurance',
+    'meutudo.meta.scope.value':
+      'Canal App · Formalization · Insurance',
     'meutudo.meta.focus.label': 'Focus',
-    'meutudo.meta.focus.value': 'Strategy · UX · Product · Leadership',
+    'meutudo.meta.focus.value':
+      'Strategy · UX · Product · Leadership',
 
     'meutudo.role.eyebrow': 'My role',
-    'meutudo.role.title': 'Bridging product strategy and user experience.',
+    'meutudo.role.title':
+      'Bridging product strategy and user experience.',
     'meutudo.role.p1':
       'At meutudo, I worked as a Staff Product Designer in a role combining technical leadership, strategic thinking and hands-on execution.',
     'meutudo.role.p2':
@@ -113,26 +138,31 @@ const translations = {
 
     'meutudo.next.eyebrow': 'Next project',
     'meutudo.next.company': 'Mercado Livre',
-    'meutudo.next.title': 'Rethinking returns across Latin America. →',
+    'meutudo.next.title':
+      'Rethinking returns across Latin America. →',
 
     /* ---------------------------------
        Mercado Livre
     --------------------------------- */
 
     'meli.hero.eyebrow': 'Mercado Livre · 2022—2025',
-    'meli.hero.title': 'Rethinking logistics across Latin America.',
+    'meli.hero.title':
+      'Rethinking logistics across Latin America.',
     'meli.hero.description':
       'UX Lead connecting strategy, operations and product experience across complex logistics systems.',
 
     'meli.meta.role.label': 'Role',
     'meli.meta.role.value': 'UX Lead',
     'meli.meta.scope.label': 'Scope',
-    'meli.meta.scope.value': 'LATAM Logistics · Internal Products',
+    'meli.meta.scope.value':
+      'LATAM Logistics · Internal Products',
     'meli.meta.focus.label': 'Focus',
-    'meli.meta.focus.value': 'Leadership · Strategy · UX · Operations',
+    'meli.meta.focus.value':
+      'Leadership · Strategy · UX · Operations',
 
     'meli.role.eyebrow': 'My role',
-    'meli.role.title': 'Connecting strategy, operations and design.',
+    'meli.role.title':
+      'Connecting strategy, operations and design.',
     'meli.role.p1':
       'I led designers across multiple logistics initiatives, ensuring consistency, quality and purpose while staying close to execution.',
     'meli.role.p2':
@@ -214,10 +244,12 @@ const translations = {
     'facily.meta.scope.label': 'Scope',
     'facily.meta.scope.value': 'Logistics · Partner App',
     'facily.meta.focus.label': 'Focus',
-    'facily.meta.focus.value': 'Research · Product Design · Leadership',
+    'facily.meta.focus.value':
+      'Research · Product Design · Leadership',
 
     'facily.context.eyebrow': 'The context',
-    'facily.context.title': 'A critical tool people could not trust.',
+    'facily.context.title':
+      'A critical tool people could not trust.',
     'facily.context.p1':
       'Facily operated a social commerce model where local partners, known as Pontos Facily, received and delivered orders to customers.',
     'facily.context.p2':
@@ -226,7 +258,8 @@ const translations = {
       'At the time, the app had a 2.3-star rating on the Play Store and operational issues were affecting logistics indicators such as order reallocation and reverse logistics.',
 
     'facily.role.eyebrow': 'My role',
-    'facily.role.title': 'Leading the team while staying hands-on.',
+    'facily.role.title':
+      'Leading the team while staying hands-on.',
     'facily.role.p1':
       'I worked as Product Design Lead for the Logistics business unit, leading three designers while remaining directly involved across the entire process.',
     'facily.role.p2':
@@ -252,12 +285,14 @@ const translations = {
     'facily.findings.manual.description':
       'Most partners relied on notebooks or spreadsheets to manage orders.',
 
-    'facily.findings.reallocation.title': 'Reallocated orders',
+    'facily.findings.reallocation.title':
+      'Reallocated orders',
     'facily.findings.reallocation.description':
       'Many had already lost orders due to operational preparation issues.',
 
     'facily.insight.eyebrow': 'The insight',
-    'facily.insight.title': 'The problem was bigger than usability.',
+    'facily.insight.title':
+      'The problem was bigger than usability.',
     'facily.insight.p1':
       'Partners did not simply need a cleaner interface. They needed visibility and confidence.',
     'facily.insight.p2':
@@ -280,7 +315,8 @@ const translations = {
       'Access delivery records, item information and operational reports.',
 
     'facily.design.eyebrow': 'Design direction',
-    'facily.design.title': 'Turning the app into an operational tool.',
+    'facily.design.title':
+      'Turning the app into an operational tool.',
     'facily.design.p1':
       'The redesign focused on helping partners manage the operation instead of simply reacting to problems.',
     'facily.design.p2':
@@ -319,28 +355,56 @@ const translations = {
        Home
     --------------------------------- */
 
-    'home.hero.eyebrow': 'Product Design · Liderança · Estratégia',
-    'home.hero.title': 'Eu projeto produtos, sistemas e times.',
+    'home.hero.eyebrow':
+      'Product Design · Liderança · Estratégia',
+    'home.hero.title':
+      'Eu projeto produtos, sistemas e times.',
     'home.hero.description':
       'Product Designer e líder de design transformando problemas complexos em experiências simples e relevantes.',
-    'home.hero.selectedWork': 'Trabalhos selecionados',
+    'home.hero.selectedWork':
+      'Trabalhos selecionados',
 
     'home.work.title': 'Trabalhos selecionados',
     'home.work.range': '01—03',
 
-    'home.meutudo.title': 'Criando jornadas financeiras melhores.',
+    'home.meutudo.title':
+      'Criando jornadas financeiras melhores.',
     'home.meutudo.company': 'meutudo',
-    'home.meutudo.meta': 'Staff Product Designer · Fintech',
+    'home.meutudo.meta':
+      'Staff Product Designer · Fintech',
 
     'home.meli.title':
       'Repensando devoluções em escala latino-americana.',
     'home.meli.company': 'Mercado Livre',
-    'home.meli.meta': 'UX Lead · Logística · LATAM',
+    'home.meli.meta':
+      'UX Lead · Logística · LATAM',
 
     'home.facily.title':
       'Redesenhando a logística a partir da operação.',
     'home.facily.company': 'Facily',
-    'home.facily.meta': 'Product Design Lead · Logística',
+    'home.facily.meta':
+      'Product Design Lead · Logística',
+
+    /* ---------------------------------
+       Experiências anteriores
+    --------------------------------- */
+
+    'home.experience.eyebrow':
+      'Experiências anteriores',
+
+    'home.experience.assertiva.role':
+      'Líder de Product Design',
+    'home.experience.assertiva':
+      'Estruturei o primeiro time oficial de Design da empresa, introduzi práticas de Product Design e ajudei a transformar design em uma disciplina estratégica.',
+
+    'home.experience.upx.role':
+      'Designer UX/UI Sênior',
+    'home.experience.upx':
+      'Atuei como Designer UX/UI Sênior em produtos digitais e design de experiências.',
+
+    /* ---------------------------------
+       Sobre
+    --------------------------------- */
 
     'home.about.eyebrow': 'Sobre mim',
     'home.about.title':
@@ -349,11 +413,18 @@ const translations = {
       'Sou Product Designer e líder de design com experiência em produtos digitais complexos, estratégia e times.',
     'home.about.p2':
       'Meu trabalho vive entre entender o problema, criar clareza e ajudar pessoas a avançar em direção a soluções melhores.',
-    'home.about.link': 'Mais sobre mim ↗',
+    'home.about.link':
+      'Mais sobre mim ↗',
+
+    /* ---------------------------------
+       Footer
+    --------------------------------- */
 
     'home.footer.eyebrow': 'Vamos conversar',
-    'home.footer.line1': 'Tem um problema complexo?',
-    'home.footer.line2': 'Vamos descobrir juntos. ↗',
+    'home.footer.line1':
+      'Tem um problema complexo?',
+    'home.footer.line2':
+      'Vamos descobrir juntos. ↗',
     'home.footer.email': 'Email',
     'home.footer.linkedin': 'LinkedIn ↗',
 
@@ -362,16 +433,20 @@ const translations = {
     --------------------------------- */
 
     'meutudo.hero.eyebrow': 'meutudo · 2025',
-    'meutudo.hero.title': 'Criando jornadas financeiras melhores.',
+    'meutudo.hero.title':
+      'Criando jornadas financeiras melhores.',
     'meutudo.hero.description':
       'Staff Product Designer atuando entre estratégia de produto, experiência e jornadas financeiras críticas.',
 
     'meutudo.meta.role.label': 'Papel',
-    'meutudo.meta.role.value': 'Staff Product Designer',
+    'meutudo.meta.role.value':
+      'Staff Product Designer',
     'meutudo.meta.scope.label': 'Escopo',
-    'meutudo.meta.scope.value': 'Canal App · Formalização · Seguros',
+    'meutudo.meta.scope.value':
+      'Canal App · Formalização · Seguros',
     'meutudo.meta.focus.label': 'Foco',
-    'meutudo.meta.focus.value': 'Estratégia · UX · Produto · Liderança',
+    'meutudo.meta.focus.value':
+      'Estratégia · UX · Produto · Liderança',
 
     'meutudo.role.eyebrow': 'Meu papel',
     'meutudo.role.title':
@@ -387,7 +462,8 @@ const translations = {
     'meutudo.scope.app.description':
       'Jornadas centrais do aplicativo, incluindo cadastro, home, contratos e pendências.',
 
-    'meutudo.scope.formalization.title': 'Formalização',
+    'meutudo.scope.formalization.title':
+      'Formalização',
     'meutudo.scope.formalization.description':
       'Tratando a jornada de contratação como produto, equilibrando segurança operacional e experiência do usuário.',
 
@@ -395,10 +471,12 @@ const translations = {
     'meutudo.scope.insurance.description':
       'Experiências para produtos como seguro renda e seguro de vida.',
 
-    'meutudo.work.eyebrow': 'Trabalhos selecionados',
+    'meutudo.work.eyebrow':
+      'Trabalhos selecionados',
     'meutudo.work.range': '01—02',
 
-    'meutudo.contract.visual': 'Gestão de contratos',
+    'meutudo.contract.visual':
+      'Gestão de contratos',
     'meutudo.contract.title':
       'Tornando as informações de contratos mais fáceis de entender.',
     'meutudo.contract.p1':
@@ -406,7 +484,8 @@ const translations = {
     'meutudo.contract.p2':
       'A nova experiência reduziu a dependência do atendimento e abriu espaço para novas funcionalidades de autosserviço, como a quitação antecipada diretamente pelo app.',
 
-    'meutudo.onboarding.visual': 'Onboarding + WhatsApp 2FA',
+    'meutudo.onboarding.visual':
+      'Onboarding + WhatsApp 2FA',
     'meutudo.onboarding.title':
       'Uma primeira experiência mais rápida e contextual.',
     'meutudo.onboarding.p1':
@@ -414,8 +493,10 @@ const translations = {
     'meutudo.onboarding.p2':
       'A iniciativa melhorou as taxas de sucesso no contato com usuários e reduziu custos de verificação, ao mesmo tempo em que criou uma experiência de onboarding mais leve.',
 
-    'meutudo.workstyle.eyebrow': 'Como eu trabalho',
-    'meutudo.workstyle.title': 'Evidências acima de suposições.',
+    'meutudo.workstyle.eyebrow':
+      'Como eu trabalho',
+    'meutudo.workstyle.title':
+      'Evidências acima de suposições.',
     'meutudo.workstyle.p1':
       'As decisões de produto eram continuamente orientadas por métricas, funis, session replays e insights de pesquisa.',
     'meutudo.workstyle.p2':
@@ -430,20 +511,25 @@ const translations = {
        Mercado Livre
     --------------------------------- */
 
-    'meli.hero.eyebrow': 'Mercado Livre · 2022—2025',
-    'meli.hero.title': 'Repensando a logística em escala latino-americana.',
+    'meli.hero.eyebrow':
+      'Mercado Livre · 2022—2025',
+    'meli.hero.title':
+      'Repensando a logística em escala latino-americana.',
     'meli.hero.description':
       'UX Lead conectando estratégia, operação e experiência de produto em sistemas logísticos complexos.',
 
     'meli.meta.role.label': 'Papel',
     'meli.meta.role.value': 'UX Lead',
     'meli.meta.scope.label': 'Escopo',
-    'meli.meta.scope.value': 'Logística LATAM · Produtos internos',
+    'meli.meta.scope.value':
+      'Logística LATAM · Produtos internos',
     'meli.meta.focus.label': 'Foco',
-    'meli.meta.focus.value': 'Liderança · Estratégia · UX · Operações',
+    'meli.meta.focus.value':
+      'Liderança · Estratégia · UX · Operações',
 
     'meli.role.eyebrow': 'Meu papel',
-    'meli.role.title': 'Conectando estratégia, operação e design.',
+    'meli.role.title':
+      'Conectando estratégia, operação e design.',
     'meli.role.p1':
       'Liderei designers em diferentes iniciativas de logística, garantindo consistência, qualidade e propósito sem me afastar da execução.',
     'meli.role.p2':
@@ -451,21 +537,26 @@ const translations = {
     'meli.role.p3':
       'Além da entrega dos projetos, acompanhei designers em mentoria, desenvolvimento de carreira e decisões do dia a dia.',
 
-    'meli.initiatives.eyebrow': 'Iniciativas selecionadas',
+    'meli.initiatives.eyebrow':
+      'Iniciativas selecionadas',
 
-    'meli.initiatives.returns.title': 'Devoluções',
+    'meli.initiatives.returns.title':
+      'Devoluções',
     'meli.initiatives.returns.description':
       'Redesenhando a operação de devoluções ao conectar estratégia de negócio, fluxo operacional e experiência dos sistemas.',
 
-    'meli.initiatives.reports.title': 'Relatórios',
+    'meli.initiatives.reports.title':
+      'Relatórios',
     'meli.initiatives.reports.description':
       'Evoluindo o monitoramento operacional para aumentar a adoção e reduzir a dependência de planilhas paralelas.',
 
-    'meli.initiatives.training.title': 'Training Hub',
+    'meli.initiatives.training.title':
+      'Training Hub',
     'meli.initiatives.training.description':
       'Levando o treinamento operacional para dentro dos sistemas logísticos e reduzindo o esforço necessário para capacitação.',
 
-    'meli.deepdive.eyebrow': 'Em profundidade',
+    'meli.deepdive.eyebrow':
+      'Em profundidade',
     'meli.deepdive.index': 'Devoluções',
     'meli.deepdive.visual': 'Devoluções',
     'meli.deepdive.title':
@@ -493,7 +584,8 @@ const translations = {
 
     'meli.outcomes.eyebrow': 'Resultados',
 
-    'meli.outcomes.control.title': 'Mais controle',
+    'meli.outcomes.control.title':
+      'Mais controle',
     'meli.outcomes.control.description':
       'Maior rastreabilidade ao longo do processo de devoluções.',
 
@@ -514,18 +606,22 @@ const translations = {
        Facily
     --------------------------------- */
 
-    'facily.hero.eyebrow': 'Facily · 2021—2022',
+    'facily.hero.eyebrow':
+      'Facily · 2021—2022',
     'facily.hero.title':
       'Redesenhando a logística a partir da operação.',
     'facily.hero.description':
       'Product Design Lead redesenhando uma ferramenta crítica de logística ao aproximar produto, tecnologia, operação e usuários.',
 
     'facily.meta.role.label': 'Papel',
-    'facily.meta.role.value': 'Product Design Lead',
+    'facily.meta.role.value':
+      'Product Design Lead',
     'facily.meta.scope.label': 'Escopo',
-    'facily.meta.scope.value': 'Logística · App de parceiros',
+    'facily.meta.scope.value':
+      'Logística · App de parceiros',
     'facily.meta.focus.label': 'Foco',
-    'facily.meta.focus.value': 'Pesquisa · Product Design · Liderança',
+    'facily.meta.focus.value':
+      'Pesquisa · Product Design · Liderança',
 
     'facily.context.eyebrow': 'Contexto',
     'facily.context.title':
@@ -545,9 +641,11 @@ const translations = {
     'facily.role.p2':
       'Também era o ponto de conexão entre Produto, Tecnologia, Operações e usuários, ajudando a criar consistência entre os produtos logísticos e trazendo o contexto real das pessoas para as decisões de produto.',
 
-    'facily.research.eyebrow': 'Pesquisa em campo',
+    'facily.research.eyebrow':
+      'Pesquisa em campo',
     'facily.research.index': '15+ locais',
-    'facily.research.visual': 'Vá onde o trabalho acontece.',
+    'facily.research.visual':
+      'Vá onde o trabalho acontece.',
     'facily.research.title':
       'Entendendo a operação antes de redesenhar a interface.',
     'facily.research.p1':
@@ -555,17 +653,21 @@ const translations = {
     'facily.research.p2':
       'A pesquisa tornou impossível ignorar a distância entre a experiência digital e a operação real.',
 
-    'facily.findings.eyebrow': 'O que encontramos',
+    'facily.findings.eyebrow':
+      'O que encontramos',
 
-    'facily.findings.count.title': 'Contagens incorretas',
+    'facily.findings.count.title':
+      'Contagens incorretas',
     'facily.findings.count.description':
       'Todos os participantes relataram números incorretos de pedidos dentro do aplicativo.',
 
-    'facily.findings.manual.title': 'Controle manual',
+    'facily.findings.manual.title':
+      'Controle manual',
     'facily.findings.manual.description':
       'A maioria dos parceiros recorria a cadernos ou planilhas para gerenciar os pedidos.',
 
-    'facily.findings.reallocation.title': 'Pedidos realocados',
+    'facily.findings.reallocation.title':
+      'Pedidos realocados',
     'facily.findings.reallocation.description':
       'Muitos já haviam perdido pedidos por problemas de preparação operacional.',
 
@@ -579,13 +681,16 @@ const translations = {
     'facily.insight.p3':
       'Isso transformou o projeto de um redesign visual em um redesign mais amplo da experiência operacional.',
 
-    'facily.needs.eyebrow': 'Necessidades principais',
+    'facily.needs.eyebrow':
+      'Necessidades principais',
 
-    'facily.needs.inventory.title': 'Clareza de estoque',
+    'facily.needs.inventory.title':
+      'Clareza de estoque',
     'facily.needs.inventory.description':
       'Saber exatamente quais e quantos pedidos estavam fisicamente no ponto.',
 
-    'facily.needs.route.title': 'Visibilidade da rota',
+    'facily.needs.route.title':
+      'Visibilidade da rota',
     'facily.needs.route.description':
       'Entender quais pedidos ainda estavam em trânsito antes da chegada.',
 
@@ -593,7 +698,8 @@ const translations = {
     'facily.needs.history.description':
       'Acessar registros de entregas, informações dos itens e relatórios operacionais.',
 
-    'facily.design.eyebrow': 'Direção de design',
+    'facily.design.eyebrow':
+      'Direção de design',
     'facily.design.title':
       'Transformando o app em uma ferramenta operacional.',
     'facily.design.p1':
@@ -617,13 +723,20 @@ const translations = {
     'facily.outcome.p2':
       'Mais importante, mudou a forma como o time tomava decisões de produto: observando a operação, envolvendo usuários mais cedo e validando hipóteses diretamente em campo.',
 
-    'facily.next.eyebrow': 'Voltar aos trabalhos',
-    'facily.next.company': 'Trabalhos selecionados',
-    'facily.next.title': 'Explorar os outros projetos. →',
+    'facily.next.eyebrow':
+      'Voltar aos trabalhos',
+    'facily.next.company':
+      'Trabalhos selecionados',
+    'facily.next.title':
+      'Explorar os outros projetos. →',
   },
 };
 
 const STORAGE_KEY = 'portfolio-language';
+
+/* ---------------------------------
+   Language
+--------------------------------- */
 
 function applyLanguage(language) {
   const dictionary = translations[language];
@@ -641,10 +754,12 @@ function applyLanguage(language) {
     }
   });
 
-  const languageSwitch = document.querySelector('.language-switch');
+  const languageSwitch =
+    document.querySelector('.language-switch');
 
   if (languageSwitch) {
-    languageSwitch.textContent = language === 'en' ? 'PT' : 'EN';
+    languageSwitch.textContent =
+      language === 'en' ? 'PT' : 'EN';
 
     languageSwitch.setAttribute(
       'aria-label',
@@ -663,7 +778,8 @@ function initLanguageSwitcher() {
 
   applyLanguage(currentLanguage);
 
-  const languageSwitch = document.querySelector('.language-switch');
+  const languageSwitch =
+    document.querySelector('.language-switch');
 
   if (!languageSwitch) {
     console.warn('Language switch button not found.');
@@ -683,7 +799,8 @@ function initLanguageSwitcher() {
 --------------------------------- */
 
 function initScrollReveal() {
-  const revealElements = document.querySelectorAll('.reveal');
+  const revealElements =
+    document.querySelectorAll('.reveal');
 
   if (!('IntersectionObserver' in window)) {
     revealElements.forEach((element) => {
