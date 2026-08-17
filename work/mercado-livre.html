@@ -22,46 +22,84 @@
     <header class="site-header page">
       <a href="/" class="brand">Marcelo Biondo</a>
 
-      <nav class="site-nav">
-        <a href="/">Work</a>
-        <a href="/#about">About</a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/#work" data-i18n="nav.work">
+          Work
+        </a>
+
+        <a href="/#about" data-i18n="nav.about">
+          About
+        </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn ↗
         </a>
+
+        <button
+          class="language-switch"
+          type="button"
+          aria-label="Mudar idioma para português"
+        >
+          PT
+        </button>
       </nav>
     </header>
 
     <main>
       <section class="case-hero page">
-        <p class="eyebrow text-secondary">
+        <p
+          class="eyebrow text-secondary"
+          data-i18n="meli.hero.eyebrow"
+        >
           Mercado Livre · 2022—2025
         </p>
 
-        <h1 class="case-hero__title">
-          Rethinking logistics
-          across Latin America.
+        <h1
+          class="case-hero__title"
+          data-i18n="meli.hero.title"
+        >
+          Rethinking logistics across Latin America.
         </h1>
 
         <div class="case-hero__meta">
-          <p>
+          <p data-i18n="meli.hero.description">
             UX Lead connecting strategy, operations and product
             experience across complex logistics systems.
           </p>
 
           <dl>
             <div>
-              <dt>Role</dt>
-              <dd>UX Lead</dd>
+              <dt data-i18n="meli.meta.role.label">
+                Role
+              </dt>
+
+              <dd data-i18n="meli.meta.role.value">
+                UX Lead
+              </dd>
             </div>
 
             <div>
-              <dt>Scope</dt>
-              <dd>LATAM Logistics · Internal Products</dd>
+              <dt data-i18n="meli.meta.scope.label">
+                Scope
+              </dt>
+
+              <dd data-i18n="meli.meta.scope.value">
+                LATAM Logistics · Internal Products
+              </dd>
             </div>
 
             <div>
-              <dt>Focus</dt>
-              <dd>Leadership · Strategy · UX · Operations</dd>
+              <dt data-i18n="meli.meta.focus.label">
+                Focus
+              </dt>
+
+              <dd data-i18n="meli.meta.focus.value">
+                Leadership · Strategy · UX · Operations
+              </dd>
             </div>
           </dl>
         </div>
@@ -72,28 +110,32 @@
       </section>
 
       <section class="case-section page reveal">
-        <p class="eyebrow">My role</p>
+        <p
+          class="eyebrow"
+          data-i18n="meli.role.eyebrow"
+        >
+          My role
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            Connecting strategy,
-            operations and design.
+          <h2 data-i18n="meli.role.title">
+            Connecting strategy, operations and design.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="meli.role.p1">
               I led designers across multiple logistics initiatives,
               ensuring consistency, quality and purpose while staying
               close to execution.
             </p>
 
-            <p>
+            <p data-i18n="meli.role.p2">
               My role also included product leadership, working closely
               with Product Managers and Tech Managers on roadmaps,
               prioritization and business and experience objectives.
             </p>
 
-            <p>
+            <p data-i18n="meli.role.p3">
               Beyond project delivery, I supported designers through
               mentoring, career development and day-to-day decision making.
             </p>
@@ -102,13 +144,22 @@
       </section>
 
       <section class="case-scope page reveal">
-        <p class="eyebrow">Selected initiatives</p>
+        <p
+          class="eyebrow"
+          data-i18n="meli.initiatives.eyebrow"
+        >
+          Selected initiatives
+        </p>
 
         <div class="case-scope__grid">
           <article>
             <p class="case-scope__number">01</p>
-            <h3>Returns</h3>
-            <p>
+
+            <h3 data-i18n="meli.initiatives.returns.title">
+              Returns
+            </h3>
+
+            <p data-i18n="meli.initiatives.returns.description">
               Redesigning the returns operation by connecting business
               strategy, operational flow and system experience.
             </p>
@@ -116,8 +167,12 @@
 
           <article>
             <p class="case-scope__number">02</p>
-            <h3>Reports</h3>
-            <p>
+
+            <h3 data-i18n="meli.initiatives.reports.title">
+              Reports
+            </h3>
+
+            <p data-i18n="meli.initiatives.reports.description">
               Evolving operational monitoring to increase adoption and
               reduce dependency on parallel spreadsheets.
             </p>
@@ -125,8 +180,12 @@
 
           <article>
             <p class="case-scope__number">03</p>
-            <h3>Training Hub</h3>
-            <p>
+
+            <h3 data-i18n="meli.initiatives.training.title">
+              Training Hub
+            </h3>
+
+            <p data-i18n="meli.initiatives.training.description">
               Bringing operational training directly into logistics
               systems and reducing training effort.
             </p>
@@ -136,30 +195,42 @@
 
       <section class="selected-work page">
         <header class="section-header reveal">
-          <p class="eyebrow">Deep dive</p>
-          <p class="section-index">Returns</p>
+          <p
+            class="eyebrow"
+            data-i18n="meli.deepdive.eyebrow"
+          >
+            Deep dive
+          </p>
+
+          <p
+            class="section-index"
+            data-i18n="meli.deepdive.index"
+          >
+            Returns
+          </p>
         </header>
 
         <article class="case-project reveal">
           <div class="case-project__visual">
-            <p>Returns</p>
+            <p data-i18n="meli.deepdive.visual">
+              Returns
+            </p>
           </div>
 
           <div class="case-project__content">
             <p class="case-project__number">01</p>
 
-            <h2>
-              Building a new returns
-              operation from the ground up.
+            <h2 data-i18n="meli.deepdive.title">
+              Building a new returns operation from the ground up.
             </h2>
 
-            <p>
+            <p data-i18n="meli.deepdive.p1">
               The challenge combined a significant business opportunity
               with an operational process that was fragmented, partially
               offline and vulnerable to errors and fraud.
             </p>
 
-            <p>
+            <p data-i18n="meli.deepdive.p2">
               The goal was to design both the ideal operational process
               and the system supporting it, while creating a model that
               could scale consistently across six countries.
@@ -169,21 +240,25 @@
       </section>
 
       <section class="case-section page reveal">
-        <p class="eyebrow">The challenge</p>
+        <p
+          class="eyebrow"
+          data-i18n="meli.challenge.eyebrow"
+        >
+          The challenge
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            A business problem
-            disguised as an operations problem.
+          <h2 data-i18n="meli.challenge.title">
+            A business problem disguised as an operations problem.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="meli.challenge.p1">
               The existing returns process lacked traceability and control,
               creating inefficiencies and financial risk.
             </p>
 
-            <p>
+            <p data-i18n="meli.challenge.p2">
               At the same time, there was an estimated multi-million-dollar
               opportunity tied to bringing returns, triage and product
               destination processes closer to the operation.
@@ -194,21 +269,25 @@
 
       <section class="case-section case-section--dark reveal">
         <div class="page">
-          <p class="eyebrow">Leadership</p>
+          <p
+            class="eyebrow"
+            data-i18n="meli.leadership.eyebrow"
+          >
+            Leadership
+          </p>
 
           <div class="case-section__content">
-            <h2>
-              Designing the conditions
-              for good decisions.
+            <h2 data-i18n="meli.leadership.title">
+              Designing the conditions for good decisions.
             </h2>
 
             <div class="case-section__copy">
-              <p>
+              <p data-i18n="meli.leadership.p1">
                 I led two senior designers while acting as one of the
                 central leaders of the multidisciplinary group.
               </p>
 
-              <p>
+              <p data-i18n="meli.leadership.p2">
                 My work moved between hands-on execution, mentoring and
                 facilitating decisions across Product, Operations,
                 Operational Excellence and Technology.
@@ -219,29 +298,46 @@
       </section>
 
       <section class="case-scope page reveal">
-        <p class="eyebrow">Outcomes</p>
+        <p
+          class="eyebrow"
+          data-i18n="meli.outcomes.eyebrow"
+        >
+          Outcomes
+        </p>
 
         <div class="case-scope__grid">
           <article>
             <p class="case-scope__number">01</p>
-            <h3>More control</h3>
-            <p>
+
+            <h3 data-i18n="meli.outcomes.control.title">
+              More control
+            </h3>
+
+            <p data-i18n="meli.outcomes.control.description">
               Increased traceability across the returns process.
             </p>
           </article>
 
           <article>
             <p class="case-scope__number">02</p>
-            <h3>Less risk</h3>
-            <p>
+
+            <h3 data-i18n="meli.outcomes.risk.title">
+              Less risk
+            </h3>
+
+            <p data-i18n="meli.outcomes.risk.description">
               Better identification of improper returns and fraud exposure.
             </p>
           </article>
 
           <article>
             <p class="case-scope__number">03</p>
-            <h3>More scale</h3>
-            <p>
+
+            <h3 data-i18n="meli.outcomes.scale.title">
+              More scale
+            </h3>
+
+            <p data-i18n="meli.outcomes.scale.description">
               A standardized operational model designed for six countries.
             </p>
           </article>
@@ -249,18 +345,28 @@
       </section>
 
       <section class="case-next page reveal">
-        <p class="eyebrow">Next project</p>
+        <p
+          class="eyebrow"
+          data-i18n="meli.next.eyebrow"
+        >
+          Next project
+        </p>
 
         <a href="/work/facily.html">
-          <span>Facily</span>
-          <strong>
-            Redesigning logistics
-            from the operation outward. →
+          <span data-i18n="meli.next.company">
+            Facily
+          </span>
+
+          <strong data-i18n="meli.next.title">
+            Redesigning logistics from the operation outward. →
           </strong>
         </a>
       </section>
     </main>
 
-    <script type="module" src="/src/scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/scripts/main.js"
+    ></script>
   </body>
 </html>

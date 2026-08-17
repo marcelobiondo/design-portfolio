@@ -22,9 +22,15 @@
     <header class="site-header page">
       <a href="/" class="brand">Marcelo Biondo</a>
 
-      <nav class="site-nav">
-        <a href="/">Work</a>
-        <a href="/#about">About</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/#work" data-i18n="nav.work">
+          Work
+        </a>
+
+        <a href="/#about" data-i18n="nav.about">
+          About
+        </a>
+
         <a
           href="https://www.linkedin.com/"
           target="_blank"
@@ -32,23 +38,35 @@
         >
           LinkedIn ↗
         </a>
+
+        <button
+          class="language-switch"
+          type="button"
+          aria-label="Mudar idioma para português"
+        >
+          PT
+        </button>
       </nav>
     </header>
 
     <main>
-      <!-- HERO -->
       <section class="case-hero page">
-        <p class="eyebrow text-secondary">
+        <p
+          class="eyebrow text-secondary"
+          data-i18n="facily.hero.eyebrow"
+        >
           Facily · 2021—2022
         </p>
 
-        <h1 class="case-hero__title">
-          Redesigning logistics
-          from the operation outward.
+        <h1
+          class="case-hero__title"
+          data-i18n="facily.hero.title"
+        >
+          Redesigning logistics from the operation outward.
         </h1>
 
         <div class="case-hero__meta">
-          <p>
+          <p data-i18n="facily.hero.description">
             Product Design Lead redesigning a critical logistics tool
             by bringing product, technology, operations and users
             closer together.
@@ -56,51 +74,68 @@
 
           <dl>
             <div>
-              <dt>Role</dt>
-              <dd>Product Design Lead</dd>
+              <dt data-i18n="facily.meta.role.label">
+                Role
+              </dt>
+
+              <dd data-i18n="facily.meta.role.value">
+                Product Design Lead
+              </dd>
             </div>
 
             <div>
-              <dt>Scope</dt>
-              <dd>Logistics · Partner App</dd>
+              <dt data-i18n="facily.meta.scope.label">
+                Scope
+              </dt>
+
+              <dd data-i18n="facily.meta.scope.value">
+                Logistics · Partner App
+              </dd>
             </div>
 
             <div>
-              <dt>Focus</dt>
-              <dd>Research · Product Design · Leadership</dd>
+              <dt data-i18n="facily.meta.focus.label">
+                Focus
+              </dt>
+
+              <dd data-i18n="facily.meta.focus.value">
+                Research · Product Design · Leadership
+              </dd>
             </div>
           </dl>
         </div>
       </section>
 
-      <!-- HERO VISUAL -->
       <section class="case-visual case-visual--facily">
         <p>Facily</p>
       </section>
 
-      <!-- CONTEXT -->
       <section class="case-section page reveal">
-        <p class="eyebrow">The context</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.context.eyebrow"
+        >
+          The context
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            A critical tool
-            people could not trust.
+          <h2 data-i18n="facily.context.title">
+            A critical tool people could not trust.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="facily.context.p1">
               Facily operated a social commerce model where local partners,
               known as Pontos Facily, received and delivered orders to customers.
             </p>
 
-            <p>
+            <p data-i18n="facily.context.p2">
               Their app was a central part of that operation, but usability,
               performance and lack of operational visibility made everyday
               work difficult.
             </p>
 
-            <p>
+            <p data-i18n="facily.context.p3">
               At the time, the app had a 2.3-star rating on the Play Store
               and operational issues were affecting logistics indicators
               such as order reallocation and reverse logistics.
@@ -109,24 +144,27 @@
         </div>
       </section>
 
-      <!-- ROLE -->
       <section class="case-section page reveal">
-        <p class="eyebrow">My role</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.role.eyebrow"
+        >
+          My role
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            Leading the team
-            while staying hands-on.
+          <h2 data-i18n="facily.role.title">
+            Leading the team while staying hands-on.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="facily.role.p1">
               I worked as Product Design Lead for the Logistics business unit,
               leading three designers while remaining directly involved
               across the entire process.
             </p>
 
-            <p>
+            <p data-i18n="facily.role.p2">
               I was also the connection point between Product, Technology,
               Operations and users, helping create consistency across
               logistics products and bringing real user context into
@@ -136,33 +174,44 @@
         </div>
       </section>
 
-      <!-- RESEARCH -->
       <section class="selected-work page">
         <header class="section-header reveal">
-          <p class="eyebrow">Field research</p>
-          <p class="section-index">15+ locations</p>
+          <p
+            class="eyebrow"
+            data-i18n="facily.research.eyebrow"
+          >
+            Field research
+          </p>
+
+          <p
+            class="section-index"
+            data-i18n="facily.research.index"
+          >
+            15+ locations
+          </p>
         </header>
 
         <article class="case-project reveal">
           <div class="case-project__visual">
-            <p>Go where the work happens.</p>
+            <p data-i18n="facily.research.visual">
+              Go where the work happens.
+            </p>
           </div>
 
           <div class="case-project__content">
             <p class="case-project__number">01</p>
 
-            <h2>
-              Understanding the operation
-              before redesigning the interface.
+            <h2 data-i18n="facily.research.title">
+              Understanding the operation before redesigning the interface.
             </h2>
 
-            <p>
+            <p data-i18n="facily.research.p1">
               We visited more than 15 Pontos Facily across the São Paulo
               metropolitan area, observing how partners worked and talking
               directly with them about their routines and pain points.
             </p>
 
-            <p>
+            <p data-i18n="facily.research.p2">
               The research made the gap between the digital experience
               and the real operation impossible to ignore.
             </p>
@@ -170,61 +219,80 @@
         </article>
       </section>
 
-      <!-- FINDINGS -->
       <section class="case-scope page reveal">
-        <p class="eyebrow">What we found</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.findings.eyebrow"
+        >
+          What we found
+        </p>
 
         <div class="case-scope__grid">
           <article>
             <p class="case-scope__number">100%</p>
-            <h3>Wrong counts</h3>
-            <p>
+
+            <h3 data-i18n="facily.findings.count.title">
+              Wrong counts
+            </h3>
+
+            <p data-i18n="facily.findings.count.description">
               Every participant reported incorrect order counts inside the app.
             </p>
           </article>
 
           <article>
             <p class="case-scope__number">80%</p>
-            <h3>Manual control</h3>
-            <p>
+
+            <h3 data-i18n="facily.findings.manual.title">
+              Manual control
+            </h3>
+
+            <p data-i18n="facily.findings.manual.description">
               Most partners relied on notebooks or spreadsheets to manage orders.
             </p>
           </article>
 
           <article>
             <p class="case-scope__number">60%</p>
-            <h3>Reallocated orders</h3>
-            <p>
+
+            <h3 data-i18n="facily.findings.reallocation.title">
+              Reallocated orders
+            </h3>
+
+            <p data-i18n="facily.findings.reallocation.description">
               Many had already lost orders due to operational preparation issues.
             </p>
           </article>
         </div>
       </section>
 
-      <!-- ANOTHER FINDING BLOCK -->
       <section class="case-section case-section--dark reveal">
         <div class="page">
-          <p class="eyebrow">The insight</p>
+          <p
+            class="eyebrow"
+            data-i18n="facily.insight.eyebrow"
+          >
+            The insight
+          </p>
 
           <div class="case-section__content">
-            <h2>
-              The problem was bigger
-              than usability.
+            <h2 data-i18n="facily.insight.title">
+              The problem was bigger than usability.
             </h2>
 
             <div class="case-section__copy">
-              <p>
+              <p data-i18n="facily.insight.p1">
                 Partners did not simply need a cleaner interface.
                 They needed visibility and confidence.
               </p>
 
-              <p>
+              <p data-i18n="facily.insight.p2">
                 They needed to know which orders were at the location,
                 which were still on the way, what each order contained
                 and what had already been delivered.
               </p>
 
-              <p>
+              <p data-i18n="facily.insight.p3">
                 That changed the project from a visual redesign into
                 a broader operational experience redesign.
               </p>
@@ -233,54 +301,73 @@
         </div>
       </section>
 
-      <!-- NEEDS -->
       <section class="case-scope page reveal">
-        <p class="eyebrow">Core needs</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.needs.eyebrow"
+        >
+          Core needs
+        </p>
 
         <div class="case-scope__grid">
           <article>
             <p class="case-scope__number">01</p>
-            <h3>Inventory clarity</h3>
-            <p>
+
+            <h3 data-i18n="facily.needs.inventory.title">
+              Inventory clarity
+            </h3>
+
+            <p data-i18n="facily.needs.inventory.description">
               Know exactly which and how many orders were physically at the point.
             </p>
           </article>
 
           <article>
             <p class="case-scope__number">02</p>
-            <h3>Route visibility</h3>
-            <p>
+
+            <h3 data-i18n="facily.needs.route.title">
+              Route visibility
+            </h3>
+
+            <p data-i18n="facily.needs.route.description">
               Understand which orders were still in transit before arrival.
             </p>
           </article>
 
           <article>
             <p class="case-scope__number">03</p>
-            <h3>History</h3>
-            <p>
+
+            <h3 data-i18n="facily.needs.history.title">
+              History
+            </h3>
+
+            <p data-i18n="facily.needs.history.description">
               Access delivery records, item information and operational reports.
             </p>
           </article>
         </div>
       </section>
 
-      <!-- DESIGN -->
       <section class="case-section page reveal">
-        <p class="eyebrow">Design direction</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.design.eyebrow"
+        >
+          Design direction
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            Turning the app
-            into an operational tool.
+          <h2 data-i18n="facily.design.title">
+            Turning the app into an operational tool.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="facily.design.p1">
               The redesign focused on helping partners manage the operation
               instead of simply reacting to problems.
             </p>
 
-            <p>
+            <p data-i18n="facily.design.p2">
               We reorganized the experience around visibility, status,
               order identification and actionable information, using
               continuous feedback from real users throughout the process.
@@ -289,24 +376,27 @@
         </div>
       </section>
 
-      <!-- LEADERSHIP -->
       <section class="case-section case-section--dark reveal">
         <div class="page">
-          <p class="eyebrow">Leadership</p>
+          <p
+            class="eyebrow"
+            data-i18n="facily.leadership.eyebrow"
+          >
+            Leadership
+          </p>
 
           <div class="case-section__content">
-            <h2>
-              Design as a bridge
-              between teams and reality.
+            <h2 data-i18n="facily.leadership.title">
+              Design as a bridge between teams and reality.
             </h2>
 
             <div class="case-section__copy">
-              <p>
+              <p data-i18n="facily.leadership.p1">
                 Beyond designing the product, I helped create a closer
                 relationship between the company and its logistics partners.
               </p>
 
-              <p>
+              <p data-i18n="facily.leadership.p2">
                 Research in the field and co-creation with users brought
                 Operations, Product and Technology into the same conversation,
                 making decisions less dependent on assumptions.
@@ -316,23 +406,26 @@
         </div>
       </section>
 
-      <!-- OUTCOME -->
       <section class="case-section page reveal">
-        <p class="eyebrow">Outcome</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.outcome.eyebrow"
+        >
+          Outcome
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            A product grounded
-            in how people actually work.
+          <h2 data-i18n="facily.outcome.title">
+            A product grounded in how people actually work.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="facily.outcome.p1">
               The project transformed the app from a limited operational
               interface into a clearer management tool for Pontos Facily.
             </p>
 
-            <p>
+            <p data-i18n="facily.outcome.p2">
               More importantly, it changed how the team approached product
               decisions: observing the operation, involving users earlier
               and validating assumptions directly in the field.
@@ -341,21 +434,29 @@
         </div>
       </section>
 
-      <!-- NEXT -->
       <section class="case-next page reveal">
-        <p class="eyebrow">Back to work</p>
+        <p
+          class="eyebrow"
+          data-i18n="facily.next.eyebrow"
+        >
+          Back to work
+        </p>
 
         <a href="/#work">
-          <span>Selected work</span>
+          <span data-i18n="facily.next.company">
+            Selected work
+          </span>
 
-          <strong>
-            Explore the other
-            projects. →
+          <strong data-i18n="facily.next.title">
+            Explore the other projects. →
           </strong>
         </a>
       </section>
     </main>
 
-    <script type="module" src="/src/scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/scripts/main.js"
+    ></script>
   </body>
 </html>
