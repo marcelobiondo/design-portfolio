@@ -39,6 +39,73 @@ const translations = {
     'home.footer.line2': "Let's figure it out. ↗",
     'home.footer.email': 'Email',
     'home.footer.linkedin': 'LinkedIn ↗',
+
+    /* ---------------------------------
+       meutudo
+    --------------------------------- */
+
+    'meutudo.hero.eyebrow': 'meutudo · 2025',
+    'meutudo.hero.title': 'Designing better financial journeys.',
+    'meutudo.hero.description':
+      'Staff Product Designer working across product strategy, experience and critical financial journeys.',
+
+    'meutudo.meta.role.label': 'Role',
+    'meutudo.meta.role.value': 'Staff Product Designer',
+    'meutudo.meta.scope.label': 'Scope',
+    'meutudo.meta.scope.value': 'Canal App · Formalization · Insurance',
+    'meutudo.meta.focus.label': 'Focus',
+    'meutudo.meta.focus.value': 'Strategy · UX · Product · Leadership',
+
+    'meutudo.role.eyebrow': 'My role',
+    'meutudo.role.title': 'Bridging product strategy and user experience.',
+    'meutudo.role.p1':
+      'At meutudo, I worked as a Staff Product Designer in a role combining technical leadership, strategic thinking and hands-on execution.',
+    'meutudo.role.p2':
+      'I worked closely with Product Managers and Engineering, helping shape roadmaps, priorities and solutions across multiple product fronts.',
+
+    'meutudo.scope.eyebrow': 'Scope',
+
+    'meutudo.scope.app.title': 'Canal App',
+    'meutudo.scope.app.description':
+      'Core app journeys including registration, home, contracts and pending actions.',
+
+    'meutudo.scope.formalization.title': 'Formalization',
+    'meutudo.scope.formalization.description':
+      'Treating the contracting journey as a product, balancing operational security and user experience.',
+
+    'meutudo.scope.insurance.title': 'Insurance',
+    'meutudo.scope.insurance.description':
+      'Experiences for income protection and life insurance products.',
+
+    'meutudo.work.eyebrow': 'Selected work',
+    'meutudo.work.range': '01—02',
+
+    'meutudo.contract.visual': 'Contract management',
+    'meutudo.contract.title':
+      'Making contract information easier to understand.',
+    'meutudo.contract.p1':
+      'Research with customer support showed that a significant share of contacts came from questions about contracts. We redesigned the experience to surface clearer and more relevant information for each product.',
+    'meutudo.contract.p2':
+      'The new experience reduced dependency on support and created space for self-service capabilities such as early loan repayment directly in the app.',
+
+    'meutudo.onboarding.visual': 'Onboarding + WhatsApp 2FA',
+    'meutudo.onboarding.title':
+      'A faster and more contextual first experience.',
+    'meutudo.onboarding.p1':
+      'We redesigned the registration journey and introduced identity verification through WhatsApp, simplifying the flow and adapting it to different financial products.',
+    'meutudo.onboarding.p2':
+      'The initiative improved contact success rates and reduced verification costs while creating a lighter onboarding experience.',
+
+    'meutudo.workstyle.eyebrow': 'How I work',
+    'meutudo.workstyle.title': 'Evidence over assumptions.',
+    'meutudo.workstyle.p1':
+      'Product decisions were continuously informed by metrics, funnels, session replays and research insights.',
+    'meutudo.workstyle.p2':
+      'The goal was not only to improve interfaces, but to help strengthen a design culture grounded in evidence, learning and measurable outcomes.',
+
+    'meutudo.next.eyebrow': 'Next project',
+    'meutudo.next.company': 'Mercado Livre',
+    'meutudo.next.title': 'Rethinking returns across Latin America. →',
   },
 
   pt: {
@@ -82,6 +149,75 @@ const translations = {
     'home.footer.line2': 'Vamos descobrir juntos. ↗',
     'home.footer.email': 'Email',
     'home.footer.linkedin': 'LinkedIn ↗',
+
+    /* ---------------------------------
+       meutudo
+    --------------------------------- */
+
+    'meutudo.hero.eyebrow': 'meutudo · 2025',
+    'meutudo.hero.title': 'Criando jornadas financeiras melhores.',
+    'meutudo.hero.description':
+      'Staff Product Designer atuando entre estratégia de produto, experiência e jornadas financeiras críticas.',
+
+    'meutudo.meta.role.label': 'Papel',
+    'meutudo.meta.role.value': 'Staff Product Designer',
+    'meutudo.meta.scope.label': 'Escopo',
+    'meutudo.meta.scope.value': 'Canal App · Formalização · Seguros',
+    'meutudo.meta.focus.label': 'Foco',
+    'meutudo.meta.focus.value': 'Estratégia · UX · Produto · Liderança',
+
+    'meutudo.role.eyebrow': 'Meu papel',
+    'meutudo.role.title':
+      'Conectando estratégia de produto e experiência do usuário.',
+    'meutudo.role.p1':
+      'Na meutudo, atuei como Staff Product Designer em uma posição que combina liderança técnica, visão estratégica e execução hands-on.',
+    'meutudo.role.p2':
+      'Trabalhei próximo de Product Managers e Engenharia, ajudando a definir roadmaps, prioridades e soluções em diferentes frentes de produto.',
+
+    'meutudo.scope.eyebrow': 'Escopo',
+
+    'meutudo.scope.app.title': 'Canal App',
+    'meutudo.scope.app.description':
+      'Jornadas centrais do aplicativo, incluindo cadastro, home, contratos e pendências.',
+
+    'meutudo.scope.formalization.title': 'Formalização',
+    'meutudo.scope.formalization.description':
+      'Tratando a jornada de contratação como produto, equilibrando segurança operacional e experiência do usuário.',
+
+    'meutudo.scope.insurance.title': 'Seguros',
+    'meutudo.scope.insurance.description':
+      'Experiências para produtos como seguro renda e seguro de vida.',
+
+    'meutudo.work.eyebrow': 'Trabalhos selecionados',
+    'meutudo.work.range': '01—02',
+
+    'meutudo.contract.visual': 'Gestão de contratos',
+    'meutudo.contract.title':
+      'Tornando as informações de contratos mais fáceis de entender.',
+    'meutudo.contract.p1':
+      'Uma investigação com o time de atendimento mostrou que uma parcela significativa dos contatos vinha de dúvidas relacionadas aos contratos. Redesenhamos a experiência para apresentar informações mais claras e relevantes de acordo com cada produto.',
+    'meutudo.contract.p2':
+      'A nova experiência reduziu a dependência do atendimento e abriu espaço para novas funcionalidades de autosserviço, como a quitação antecipada diretamente pelo app.',
+
+    'meutudo.onboarding.visual': 'Onboarding + WhatsApp 2FA',
+    'meutudo.onboarding.title':
+      'Uma primeira experiência mais rápida e contextual.',
+    'meutudo.onboarding.p1':
+      'Redesenhamos a jornada de cadastro e introduzimos a verificação de identidade via WhatsApp, simplificando o fluxo e adaptando a experiência a diferentes produtos financeiros.',
+    'meutudo.onboarding.p2':
+      'A iniciativa melhorou as taxas de sucesso no contato com usuários e reduziu custos de verificação, ao mesmo tempo em que criou uma experiência de onboarding mais leve.',
+
+    'meutudo.workstyle.eyebrow': 'Como eu trabalho',
+    'meutudo.workstyle.title': 'Evidências acima de suposições.',
+    'meutudo.workstyle.p1':
+      'As decisões de produto eram continuamente orientadas por métricas, funis, session replays e insights de pesquisa.',
+    'meutudo.workstyle.p2':
+      'O objetivo não era apenas melhorar interfaces, mas também fortalecer uma cultura de design baseada em evidências, aprendizado e impacto mensurável.',
+
+    'meutudo.next.eyebrow': 'Próximo projeto',
+    'meutudo.next.company': 'Mercado Livre',
+    'meutudo.next.title':
+      'Repensando devoluções em escala latino-americana. →',
   },
 };
 

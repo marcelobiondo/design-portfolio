@@ -22,46 +22,84 @@
     <header class="site-header page">
       <a href="/" class="brand">Marcelo Biondo</a>
 
-      <nav class="site-nav">
-        <a href="/">Work</a>
-        <a href="/#about">About</a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/#work" data-i18n="nav.work">
+          Work
+        </a>
+
+        <a href="/#about" data-i18n="nav.about">
+          About
+        </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn ↗
         </a>
+
+        <button
+          class="language-switch"
+          type="button"
+          aria-label="Mudar idioma para português"
+        >
+          PT
+        </button>
       </nav>
     </header>
 
     <main>
       <section class="case-hero page">
-        <p class="eyebrow text-secondary">
+        <p
+          class="eyebrow text-secondary"
+          data-i18n="meutudo.hero.eyebrow"
+        >
           meutudo · 2025
         </p>
 
-        <h1 class="case-hero__title">
-          Designing better
-          financial journeys.
+        <h1
+          class="case-hero__title"
+          data-i18n="meutudo.hero.title"
+        >
+          Designing better financial journeys.
         </h1>
 
         <div class="case-hero__meta">
-          <p>
+          <p data-i18n="meutudo.hero.description">
             Staff Product Designer working across product strategy,
             experience and critical financial journeys.
           </p>
 
           <dl>
             <div>
-              <dt>Role</dt>
-              <dd>Staff Product Designer</dd>
+              <dt data-i18n="meutudo.meta.role.label">
+                Role
+              </dt>
+
+              <dd data-i18n="meutudo.meta.role.value">
+                Staff Product Designer
+              </dd>
             </div>
 
             <div>
-              <dt>Scope</dt>
-              <dd>Canal App · Formalization · Insurance</dd>
+              <dt data-i18n="meutudo.meta.scope.label">
+                Scope
+              </dt>
+
+              <dd data-i18n="meutudo.meta.scope.value">
+                Canal App · Formalization · Insurance
+              </dd>
             </div>
 
             <div>
-              <dt>Focus</dt>
-              <dd>Strategy · UX · Product · Leadership</dd>
+              <dt data-i18n="meutudo.meta.focus.label">
+                Focus
+              </dt>
+
+              <dd data-i18n="meutudo.meta.focus.value">
+                Strategy · UX · Product · Leadership
+              </dd>
             </div>
           </dl>
         </div>
@@ -72,22 +110,26 @@
       </section>
 
       <section class="case-section page reveal">
-        <p class="eyebrow">My role</p>
+        <p
+          class="eyebrow"
+          data-i18n="meutudo.role.eyebrow"
+        >
+          My role
+        </p>
 
         <div class="case-section__content">
-          <h2>
-            Bridging product strategy
-            and user experience.
+          <h2 data-i18n="meutudo.role.title">
+            Bridging product strategy and user experience.
           </h2>
 
           <div class="case-section__copy">
-            <p>
+            <p data-i18n="meutudo.role.p1">
               At meutudo, I worked as a Staff Product Designer in a role
               combining technical leadership, strategic thinking and
               hands-on execution.
             </p>
 
-            <p>
+            <p data-i18n="meutudo.role.p2">
               I worked closely with Product Managers and Engineering,
               helping shape roadmaps, priorities and solutions across
               multiple product fronts.
@@ -97,13 +139,22 @@
       </section>
 
       <section class="case-scope page reveal">
-        <p class="eyebrow">Scope</p>
+        <p
+          class="eyebrow"
+          data-i18n="meutudo.scope.eyebrow"
+        >
+          Scope
+        </p>
 
         <div class="case-scope__grid">
           <article>
             <p class="case-scope__number">01</p>
-            <h3>Canal App</h3>
-            <p>
+
+            <h3 data-i18n="meutudo.scope.app.title">
+              Canal App
+            </h3>
+
+            <p data-i18n="meutudo.scope.app.description">
               Core app journeys including registration, home,
               contracts and pending actions.
             </p>
@@ -111,8 +162,12 @@
 
           <article>
             <p class="case-scope__number">02</p>
-            <h3>Formalization</h3>
-            <p>
+
+            <h3 data-i18n="meutudo.scope.formalization.title">
+              Formalization
+            </h3>
+
+            <p data-i18n="meutudo.scope.formalization.description">
               Treating the contracting journey as a product,
               balancing operational security and user experience.
             </p>
@@ -120,8 +175,12 @@
 
           <article>
             <p class="case-scope__number">03</p>
-            <h3>Insurance</h3>
-            <p>
+
+            <h3 data-i18n="meutudo.scope.insurance.title">
+              Insurance
+            </h3>
+
+            <p data-i18n="meutudo.scope.insurance.description">
               Experiences for income protection and life insurance
               products.
             </p>
@@ -131,31 +190,43 @@
 
       <section class="selected-work page">
         <header class="section-header reveal">
-          <p class="eyebrow">Selected work</p>
-          <p class="section-index">01—02</p>
+          <p
+            class="eyebrow"
+            data-i18n="meutudo.work.eyebrow"
+          >
+            Selected work
+          </p>
+
+          <p
+            class="section-index"
+            data-i18n="meutudo.work.range"
+          >
+            01—02
+          </p>
         </header>
 
         <article class="case-project reveal">
           <div class="case-project__visual">
-            <p>Contract management</p>
+            <p data-i18n="meutudo.contract.visual">
+              Contract management
+            </p>
           </div>
 
           <div class="case-project__content">
             <p class="case-project__number">01</p>
 
-            <h2>
-              Making contract information
-              easier to understand.
+            <h2 data-i18n="meutudo.contract.title">
+              Making contract information easier to understand.
             </h2>
 
-            <p>
+            <p data-i18n="meutudo.contract.p1">
               Research with customer support showed that a significant
               share of contacts came from questions about contracts.
               We redesigned the experience to surface clearer and more
               relevant information for each product.
             </p>
 
-            <p>
+            <p data-i18n="meutudo.contract.p2">
               The new experience reduced dependency on support and
               created space for self-service capabilities such as
               early loan repayment directly in the app.
@@ -165,24 +236,25 @@
 
         <article class="case-project reveal">
           <div class="case-project__visual">
-            <p>Onboarding + WhatsApp 2FA</p>
+            <p data-i18n="meutudo.onboarding.visual">
+              Onboarding + WhatsApp 2FA
+            </p>
           </div>
 
           <div class="case-project__content">
             <p class="case-project__number">02</p>
 
-            <h2>
-              A faster and more contextual
-              first experience.
+            <h2 data-i18n="meutudo.onboarding.title">
+              A faster and more contextual first experience.
             </h2>
 
-            <p>
+            <p data-i18n="meutudo.onboarding.p1">
               We redesigned the registration journey and introduced
               identity verification through WhatsApp, simplifying the
               flow and adapting it to different financial products.
             </p>
 
-            <p>
+            <p data-i18n="meutudo.onboarding.p2">
               The initiative improved contact success rates and reduced
               verification costs while creating a lighter onboarding
               experience.
@@ -193,21 +265,25 @@
 
       <section class="case-section case-section--dark reveal">
         <div class="page">
-          <p class="eyebrow">How I work</p>
+          <p
+            class="eyebrow"
+            data-i18n="meutudo.workstyle.eyebrow"
+          >
+            How I work
+          </p>
 
           <div class="case-section__content">
-            <h2>
-              Evidence over
-              assumptions.
+            <h2 data-i18n="meutudo.workstyle.title">
+              Evidence over assumptions.
             </h2>
 
             <div class="case-section__copy">
-              <p>
+              <p data-i18n="meutudo.workstyle.p1">
                 Product decisions were continuously informed by metrics,
                 funnels, session replays and research insights.
               </p>
 
-              <p>
+              <p data-i18n="meutudo.workstyle.p2">
                 The goal was not only to improve interfaces, but to help
                 strengthen a design culture grounded in evidence,
                 learning and measurable outcomes.
@@ -218,18 +294,28 @@
       </section>
 
       <section class="case-next page reveal">
-        <p class="eyebrow">Next project</p>
+        <p
+          class="eyebrow"
+          data-i18n="meutudo.next.eyebrow"
+        >
+          Next project
+        </p>
 
         <a href="/work/mercado-livre.html">
-          <span>Mercado Livre</span>
-          <strong>
-            Rethinking returns
-            across Latin America. →
+          <span data-i18n="meutudo.next.company">
+            Mercado Livre
+          </span>
+
+          <strong data-i18n="meutudo.next.title">
+            Rethinking returns across Latin America. →
           </strong>
         </a>
       </section>
     </main>
 
-    <script type="module" src="/src/scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/scripts/main.js"
+    ></script>
   </body>
 </html>
