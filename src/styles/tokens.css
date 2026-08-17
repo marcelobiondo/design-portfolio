@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --color-background: #f5f5f0;
+  --color-surface: #ffffff;
+
+  --color-text: #111111;
+  --color-text-secondary: #74746f;
+
+  --color-border: rgba(17, 17, 17, 0.14);
+
+  /* Typography */
+  --font-sans:
+    Inter,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+
+  --font-size-display: clamp(3.5rem, 9vw, 9rem);
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+  --space-8: 8rem;
+
+  /* Layout */
+  --page-padding: clamp(1.25rem, 4vw, 4rem);
+  --content-width: 1600px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --duration-fast: 180ms;
+  --duration-normal: 400ms;
+  --duration-slow: 800ms;
+}

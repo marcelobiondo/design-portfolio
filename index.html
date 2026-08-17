@@ -18,10 +18,283 @@
   </head>
 
   <body>
-    <main id="app">
-      <h1>Marcelo Biondo</h1>
+    <header class="site-header page">
+      <a href="/" class="brand">Marcelo Biondo</a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#work" data-i18n="nav.work">
+          Work
+        </a>
+
+        <a href="#about" data-i18n="nav.about">
+          About
+        </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+        <button
+          class="language-switch"
+          type="button"
+          aria-label="Mudar idioma para português"
+        >
+          PT
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page">
+        <p
+          class="eyebrow hero__eyebrow"
+          data-i18n="home.hero.eyebrow"
+        >
+          Product Design · Leadership · Strategy
+        </p>
+
+        <h1
+          class="hero__title"
+          data-i18n="home.hero.title"
+        >
+          I design products, systems and teams.
+        </h1>
+
+        <div class="hero__bottom">
+          <p
+            class="hero__description"
+            data-i18n="home.hero.description"
+          >
+            Product designer and design leader turning complex problems
+            into simple, meaningful experiences.
+          </p>
+
+          <a href="#work" class="scroll-link">
+            <span data-i18n="home.hero.selectedWork">
+              Selected work
+            </span>
+
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="work page" id="work">
+        <header class="section-header reveal">
+          <p
+            class="eyebrow"
+            data-i18n="home.work.title"
+          >
+            Selected work
+          </p>
+
+          <p
+            class="section-index"
+            data-i18n="home.work.range"
+          >
+            01—03
+          </p>
+        </header>
+
+        <article class="project reveal">
+          <a
+            href="/work/meutudo.html"
+            class="project__link"
+          >
+            <div class="project__visual project__visual--meutudo">
+              <div class="project__placeholder">
+                meutudo
+              </div>
+            </div>
+
+            <div class="project__meta">
+              <div>
+                <p class="project__number">01</p>
+
+                <h2
+                  class="project__title"
+                  data-i18n="home.meutudo.title"
+                >
+                  Designing better financial journeys.
+                </h2>
+              </div>
+
+              <div class="project__details">
+                <p data-i18n="home.meutudo.company">
+                  meutudo
+                </p>
+
+                <p data-i18n="home.meutudo.meta">
+                  Staff Product Designer · Fintech
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project reveal">
+          <a
+            href="/work/mercado-livre.html"
+            class="project__link"
+          >
+            <div class="project__visual project__visual--meli">
+              <div class="project__placeholder">
+                Mercado Livre
+              </div>
+            </div>
+
+            <div class="project__meta">
+              <div>
+                <p class="project__number">02</p>
+
+                <h2
+                  class="project__title"
+                  data-i18n="home.meli.title"
+                >
+                  Rethinking returns across Latin America.
+                </h2>
+              </div>
+
+              <div class="project__details">
+                <p data-i18n="home.meli.company">
+                  Mercado Livre
+                </p>
+
+                <p data-i18n="home.meli.meta">
+                  UX Lead · Logistics · LATAM
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project reveal">
+          <a
+            href="/work/facily.html"
+            class="project__link"
+          >
+            <div class="project__visual project__visual--facily">
+              <div class="project__placeholder">
+                Facily
+              </div>
+            </div>
+
+            <div class="project__meta">
+              <div>
+                <p class="project__number">03</p>
+
+                <h2
+                  class="project__title"
+                  data-i18n="home.facily.title"
+                >
+                  Redesigning logistics from the operation outward.
+                </h2>
+              </div>
+
+              <div class="project__details">
+                <p data-i18n="home.facily.company">
+                  Facily
+                </p>
+
+                <p data-i18n="home.facily.meta">
+                  Product Design Lead · Logistics
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      </section>
+
+      <section
+        class="about page reveal"
+        id="about"
+      >
+        <p
+          class="eyebrow"
+          data-i18n="home.about.eyebrow"
+        >
+          About me
+        </p>
+
+        <div class="about__content">
+          <h2 data-i18n="home.about.title">
+            Designing digital products and helping teams do their best work.
+          </h2>
+
+          <div class="about__copy">
+            <p data-i18n="home.about.p1">
+              I’m a product designer and design leader with experience
+              working across complex digital products, strategy and teams.
+            </p>
+
+            <p data-i18n="home.about.p2">
+              My work lives between understanding the problem, creating
+              clarity and helping people move toward better solutions.
+            </p>
+
+            <a
+              href="#"
+              class="text-link"
+              data-i18n="home.about.link"
+            >
+              More about me ↗
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <script type="module" src="/src/scripts/main.js"></script>
+    <footer class="footer page reveal">
+      <p
+        class="eyebrow"
+        data-i18n="home.footer.eyebrow"
+      >
+        Let’s talk
+      </p>
+
+      <div class="footer__title">
+        <p data-i18n="home.footer.line1">
+          Have a complex problem?
+        </p>
+
+        <a
+          href="mailto:hello@example.com"
+          data-i18n="home.footer.line2"
+        >
+          Let's figure it out. ↗
+        </a>
+      </div>
+
+      <div class="footer__bottom">
+        <p>Marcelo Biondo © 2026</p>
+
+        <div>
+          <a
+            href="mailto:hello@example.com"
+            data-i18n="home.footer.email"
+          >
+            Email
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="home.footer.linkedin"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="/src/scripts/main.js"
+    ></script>
   </body>
 </html>

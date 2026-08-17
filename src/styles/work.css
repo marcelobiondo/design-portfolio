@@ -1,0 +1,330 @@
+/* ---------------------------------
+   Case hero
+--------------------------------- */
+
+.case-hero {
+  padding-top: clamp(5rem, 10vw, 10rem);
+  padding-bottom: var(--space-6);
+}
+
+.case-hero__title {
+  max-width: 11ch;
+
+  margin-top: var(--space-4);
+
+  font-size: clamp(4rem, 10vw, 10rem);
+  font-weight: 500;
+  line-height: 0.88;
+  letter-spacing: -0.07em;
+}
+
+.case-hero__meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: var(--space-5);
+
+  margin-top: clamp(5rem, 10vw, 9rem);
+}
+
+.case-hero__meta > p {
+  max-width: 34rem;
+
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.35;
+  letter-spacing: -0.03em;
+
+  color: var(--color-text-secondary);
+}
+
+.case-hero dl {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.case-hero dl div {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+
+  padding-top: var(--space-2);
+
+  border-top: 1px solid var(--color-border);
+
+  font-size: var(--font-size-sm);
+}
+
+.case-hero dt {
+  color: var(--color-text-secondary);
+}
+
+/* ---------------------------------
+   Hero visual
+--------------------------------- */
+
+.case-visual {
+  min-height: 75vh;
+
+  display: grid;
+  place-items: center;
+
+  margin-top: var(--space-5);
+}
+
+.case-visual p {
+  font-size: clamp(5rem, 15vw, 15rem);
+  font-weight: 600;
+  letter-spacing: -0.07em;
+}
+
+.case-visual--meutudo {
+  color: white;
+  background: #6122ff;
+}
+
+/* ---------------------------------
+   Sections
+--------------------------------- */
+
+.case-section {
+  padding-block: clamp(7rem, 14vw, 14rem);
+}
+
+.case-section__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  gap: clamp(4rem, 10vw, 12rem);
+
+  margin-top: var(--space-5);
+}
+
+.case-section h2 {
+  max-width: 13ch;
+
+  font-size: clamp(3rem, 6vw, 7rem);
+  font-weight: 500;
+  line-height: 0.94;
+  letter-spacing: -0.06em;
+}
+
+.case-section__copy {
+  align-self: end;
+
+  display: grid;
+  gap: var(--space-3);
+
+  max-width: 34rem;
+
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.5;
+
+  color: var(--color-text-secondary);
+}
+
+/* ---------------------------------
+   Scope
+--------------------------------- */
+
+.case-scope {
+  padding-bottom: clamp(7rem, 14vw, 14rem);
+}
+
+.case-scope__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: var(--space-3);
+
+  margin-top: var(--space-5);
+}
+
+.case-scope article {
+  min-height: 24rem;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: var(--space-3);
+
+  border-top: 1px solid var(--color-border);
+}
+
+.case-scope__number {
+  color: var(--color-text-secondary);
+
+  font-size: var(--font-size-sm);
+}
+
+.case-scope h3 {
+  margin-top: auto;
+
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+.case-scope article > p:last-child {
+  max-width: 22rem;
+
+  margin-top: var(--space-2);
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.5;
+}
+
+/* ---------------------------------
+   Selected work
+--------------------------------- */
+
+.selected-work {
+  padding-bottom: var(--space-8);
+}
+
+.case-project {
+  padding-block: clamp(6rem, 12vw, 12rem);
+}
+
+.case-project__visual {
+  min-height: min(65vw, 850px);
+
+  display: grid;
+  place-items: center;
+
+  padding: var(--space-4);
+
+  color: white;
+  background: #181818;
+
+  text-align: center;
+}
+
+.case-project__visual p {
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+.case-project__content {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr;
+
+  gap: var(--space-4);
+
+  margin-top: var(--space-4);
+}
+
+.case-project__number {
+  color: var(--color-text-secondary);
+}
+
+.case-project__content h2 {
+  max-width: 14ch;
+
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 500;
+  line-height: 0.96;
+  letter-spacing: -0.055em;
+}
+
+.case-project__content > p:not(.case-project__number) {
+  grid-column: 3;
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.5;
+}
+
+/* ---------------------------------
+   Dark statement
+--------------------------------- */
+
+.case-section--dark {
+  color: white;
+  background: #111111;
+}
+
+.case-section--dark .case-section__copy {
+  color: #999999;
+}
+
+/* ---------------------------------
+   Next project
+--------------------------------- */
+
+.case-next {
+  padding-block: clamp(7rem, 12vw, 12rem);
+}
+
+.case-next a {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  gap: var(--space-4);
+
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+
+  border-top: 1px solid var(--color-border);
+}
+
+.case-next span {
+  color: var(--color-text-secondary);
+}
+
+.case-next strong {
+  max-width: 15ch;
+
+  font-size: clamp(3rem, 7vw, 8rem);
+  font-weight: 500;
+  line-height: 0.92;
+  letter-spacing: -0.065em;
+}
+
+/* ---------------------------------
+   Mobile
+--------------------------------- */
+
+@media (max-width: 768px) {
+  .case-hero__meta,
+  .case-section__content {
+    grid-template-columns: 1fr;
+  }
+
+  .case-hero dl div {
+    grid-template-columns: 6rem 1fr;
+  }
+
+  .case-visual {
+    min-height: 70vh;
+  }
+
+  .case-scope__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-scope article {
+    min-height: 16rem;
+  }
+
+  .case-project__visual {
+    min-height: 110vw;
+  }
+
+  .case-project__content {
+    grid-template-columns: 1fr;
+  }
+
+  .case-project__content > p:not(.case-project__number) {
+    grid-column: auto;
+  }
+
+  .case-next a {
+    grid-template-columns: 1fr;
+  }
+}
+
+.case-visual--meli {
+  color: #252525;
+  background: #ffe600;
+}
