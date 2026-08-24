@@ -16,16 +16,21 @@ The portfolio presents product design, leadership and strategy work. Its primary
 - Avoid dependencies, frameworks or abstractions that do not materially improve the portfolio.
 - Do not invent career facts, metrics, outcomes, quotes or case-study details.
 - Treat product/design decisions as product-owner decisions; surface assumptions for review.
+- Prefer small complete improvements over broad unfinished rewrites.
 
 ## Current stack
 
+Frontend:
 - HTML
 - CSS
 - Vanilla JavaScript
 - Vite 8
-- Wrangler 4 available in the project tooling
 
-The current homepage includes selected work, earlier experience, about content and contact links. It supports localized strings through `data-i18n` hooks and JavaScript.
+Tooling / deploy:
+- Wrangler 4
+- Cloudflare static assets from `dist/`
+
+The homepage includes selected work, earlier experience, about content and contact links. Localized strings use `data-i18n` hooks and JavaScript.
 
 ## Current content direction
 
@@ -34,9 +39,7 @@ Selected work currently includes case-study entry points for:
 - Mercado Livre
 - Facily
 
-Earlier experience and an About section also appear on the homepage.
-
-The portfolio is intended to position the owner for senior product-design leadership opportunities. Case studies should emphasize problem framing, decisions, collaboration, systems thinking, leadership and measurable impact where verified evidence exists.
+The portfolio is intended to position the owner for senior product-design leadership opportunities. Case studies should emphasize problem framing, decisions, collaboration, systems thinking, leadership and measurable impact only where verified evidence exists.
 
 ## Important implementation areas
 
@@ -45,22 +48,33 @@ The portfolio is intended to position the owner for senior product-design leader
 - `src/scripts/main.js` — client behavior/localization
 - `work/` — case-study pages
 - `package.json` — Vite scripts/tooling
+- `wrangler.jsonc` — Cloudflare deployment configuration
+- `dist/` — generated build output; never edit manually
 
 Inspect the repository before assuming additional structure.
 
-## Git workflow
+## Branch and environment strategy
 
 Never implement product work directly on `main`.
 
-Create short-lived branches such as:
-- `feature/<short-name>`
+- `develop` = integration / validation branch
+- `main` = production branch
+- feature work = short-lived branch from `develop`
+
+Preferred feature branch names:
+- `feat/<short-name>`
 - `fix/<short-name>`
 - `content/<short-name>`
+- `style/<short-name>`
 - `chore/<short-name>`
 
-Expected flow: `feature branch -> review/local validation -> Pull Request -> main`.
+Expected flow:
 
-Do not merge or deploy to production unless explicitly requested.
+`feature branch -> develop -> validation -> main -> production`
+
+Do not merge or deploy to `main` unless explicitly requested.
+
+If a separate DEV deployment is configured, use `develop` as its source of truth. Until then, `develop` still acts as the integration branch and must be validated locally before promotion.
 
 ## Development commands
 
@@ -88,16 +102,26 @@ Preview production build:
 npm run preview
 ```
 
+Cloudflare local preview when needed:
+
+```bash
+npm run build
+npx wrangler dev
+```
+
 ## Validation before completing a task
+
+At minimum:
 
 1. Run `npm run build`.
 2. Fix errors introduced by the change.
 3. Check affected pages at desktop and mobile widths.
 4. Check keyboard/focus behavior for interactive elements.
 5. Check that motion does not hide essential content or break when JavaScript is delayed.
-6. Verify both supported languages when changing translatable content or markup.
-7. Check case-study/navigation links affected by the change.
-8. Summarize what changed and identify any content/design decision requiring owner review.
+6. Respect `prefers-reduced-motion` for new motion.
+7. Verify both supported languages when changing translatable content or markup.
+8. Check case-study/navigation links affected by the change.
+9. Summarize what changed and identify any content/design decision requiring owner review.
 
 Do not claim live deployment validation unless actually performed.
 
@@ -106,13 +130,14 @@ Do not claim live deployment validation unless actually performed.
 - Reuse existing design tokens and spacing/typography patterns before introducing new ones.
 - Maintain strong hierarchy and generous whitespace.
 - Prefer subtle, purposeful motion.
-- Respect `prefers-reduced-motion` when adding animation.
+- Respect `prefers-reduced-motion`.
 - Avoid layout shift and animation that delays access to content.
 - Keep responsive behavior intentional rather than simply shrinking desktop layouts.
+- Do not redesign unrelated areas while implementing a scoped task.
 
 ## Content integrity
 
-This portfolio contains professional claims. Never fabricate or infer confidential metrics, team sizes, business outcomes, dates or responsibilities.
+This portfolio contains professional claims. Never fabricate or infer confidential metrics, team sizes, business outcomes, dates, responsibilities, quotes or research findings.
 
 When information is missing:
 - preserve placeholders if appropriate;
@@ -147,10 +172,27 @@ When implementing a GitHub Issue:
 
 ## Commits and PRs
 
-Use Conventional Commit-style messages where practical (`feat:`, `fix:`, `style:`, `content:`, `refactor:`, `docs:`, `chore:`).
+Use Conventional Commit-style messages where practical:
+- `feat:`
+- `fix:`
+- `style:`
+- `content:`
+- `refactor:`
+- `docs:`
+- `chore:`
 
-PR descriptions should explain what changed, why it improves the portfolio, how it was validated, and which visual/content decisions still require review. Include screenshots for meaningful visual changes when available.
+PR descriptions should explain:
+- what changed;
+- why it improves the portfolio;
+- how it was validated;
+- which visual/content decisions still require review.
+
+Include screenshots for meaningful visual changes when available.
 
 ## Product-owner review
 
-The owner should spend time on product strategy, narrative, design direction and final visual judgment rather than mechanical implementation. Agents should therefore implement clearly specified work autonomously while escalating ambiguous product/design choices instead of making large silent assumptions.
+The owner should spend time on product strategy, narrative, design direction and final visual judgment rather than mechanical implementation.
+
+Agents should implement clearly specified work autonomously while escalating ambiguous product/design choices instead of making large silent assumptions.
+
+Implementation completion does not equal product approval. Visual and narrative changes should be prepared for review before promotion to `main`.
