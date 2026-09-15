@@ -11,7 +11,7 @@ const translations = {
        Home
     --------------------------------- */
 
-    'home.hero.eyebrow': 'Product Design · Leadership · Strategy',
+    'home.hero.eyebrow': 'DEV · Product Design · Leadership · Strategy',
     'home.hero.title': 'I design products, systems and teams.',
     'home.hero.description':
       'Product designer and design leader turning complex problems into simple, meaningful experiences.',
