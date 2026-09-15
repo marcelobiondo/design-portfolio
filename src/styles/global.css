@@ -193,18 +193,18 @@ body {
   transition: transform 900ms var(--ease-out);
 }
 
-.project__visual--meli {
-  background: #ffe600;
-  color: #252525;
-}
-
 .project__visual--meutudo {
-  background: #6122ff;
+  background: var(--brand-meutudo);
   color: white;
 }
 
+.project__visual--meli {
+  background: var(--brand-mercado-livre);
+  color: #252525;
+}
+
 .project__visual--facily {
-  background: #101010;
+  background: var(--brand-facily);
   color: white;
 }
 

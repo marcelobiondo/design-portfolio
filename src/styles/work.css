@@ -78,7 +78,7 @@
 
 .case-visual--meutudo {
   color: white;
-  background: #6122ff;
+  background: var(--brand-meutudo);
 }
 
 /* ---------------------------------
@@ -326,5 +326,10 @@
 
 .case-visual--meli {
   color: #252525;
-  background: #ffe600;
+  background: var(--brand-mercado-livre);
+}
+
+.case-visual--facily {
+  color: white;
+  background: var(--brand-facily);
 }

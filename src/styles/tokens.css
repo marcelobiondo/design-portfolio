@@ -8,6 +8,11 @@
 
   --color-border: rgba(17, 17, 17, 0.14);
 
+    /* Brand colors */
+  --brand-meutudo: #d80073;
+  --brand-mercado-livre: #ffe600;
+  --brand-facily: #0067ff;
+
   /* Typography */
   --font-sans:
     Inter,
@@ -44,3 +49,4 @@
   --duration-normal: 400ms;
   --duration-slow: 800ms;
 }
+
