@@ -1,0 +1,26 @@
+.side-hero .case-hero__title { max-width: 12ch; }
+
+.side-visual { margin-top: var(--space-5); padding-block: clamp(7rem, 14vw, 14rem); color: white; background: #111111; }
+.side-visual__inner { display: grid; gap: clamp(4rem, 10vw, 10rem); }
+.side-visual__statement { max-width: 10ch; font-size: clamp(4rem, 11vw, 11rem); font-weight: 500; line-height: .88; letter-spacing: -.07em; }
+
+.side-decisions { padding-bottom: clamp(7rem, 14vw, 14rem); }
+.side-decisions__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); margin-top: var(--space-5); }
+.side-decisions article { min-height: 26rem; display: flex; flex-direction: column; padding-top: var(--space-3); border-top: 1px solid var(--color-border); }
+.side-decision__number { color: var(--color-text-secondary); font-size: var(--font-size-sm); }
+.side-decisions h3 { max-width: 10ch; margin-top: auto; font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 500; line-height: .98; letter-spacing: -.05em; }
+.side-decisions article > p:last-child { max-width: 24rem; margin-top: var(--space-2); color: var(--color-text-secondary); line-height: 1.5; }
+
+.side-evolution { display: flex; flex-wrap: wrap; align-items: center; gap: clamp(.65rem, 1.5vw, 1.5rem); margin-top: var(--space-5); font-size: clamp(1.4rem, 3vw, 3rem); letter-spacing: -.04em; }
+.side-evolution span { color: #666; }
+.side-evolution__copy { margin-top: clamp(5rem, 10vw, 9rem); }
+
+.side-impact { padding-block: clamp(7rem, 14vw, 14rem); border-top: 1px solid var(--color-border); }
+.side-impact__statement { max-width: 15ch; margin-top: var(--space-5); font-size: clamp(3rem, 7vw, 8rem); font-weight: 500; line-height: .92; letter-spacing: -.065em; }
+.side-impact__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); margin-top: clamp(5rem, 10vw, 9rem); padding-top: var(--space-3); border-top: 1px solid var(--color-border); color: var(--color-text-secondary); line-height: 1.5; }
+
+@media (max-width: 768px) {
+  .side-decisions__grid, .side-impact__grid { grid-template-columns: 1fr; }
+  .side-decisions article { min-height: 18rem; }
+  .side-impact__grid { gap: var(--space-3); }
+}
