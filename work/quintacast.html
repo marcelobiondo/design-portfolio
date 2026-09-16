@@ -54,6 +54,14 @@
         </div>
       </section>
 
+      <div class="side-system-visual page reveal" aria-label="QuintaCast publishing model">
+        <div class="side-system-visual__source"><span class="side-system-visual__label">Existing source</span><strong>Podcast RSS</strong><small>episodes · metadata · artwork</small></div>
+        <span class="side-system-visual__arrow">→</span>
+        <div class="side-system-visual__product"><span class="side-system-visual__label">Product layer</span><strong>QuintaCast</strong><small>website · discovery · contact</small></div>
+        <span class="side-system-visual__arrow">→</span>
+        <div class="side-system-visual__outputs"><span>Spotify</span><span>Apple</span><span>Amazon</span><span>Web</span></div>
+      </div>
+
       <section class="side-decisions page reveal">
         <p class="eyebrow">Decisions that shaped the product</p>
         <div class="side-decisions__grid">
@@ -73,6 +81,12 @@
             <h2>Complexity was introduced only when the product earned it.</h2>
             <div class="case-section__copy"><p>The site evolved from a simple publishing surface into a small production system with GitHub-based work management, separate development and production environments and automated deployments.</p><p>The infrastructure was an outcome of product evolution, not the starting point.</p></div>
           </div>
+          <div class="side-workflow" aria-label="Development workflow">
+            <div><span>01</span><strong>Issue</strong><small>Define a small improvement</small></div><i>→</i>
+            <div><span>02</span><strong>Branch</strong><small>Build in isolation</small></div><i>→</i>
+            <div><span>03</span><strong>DEV</strong><small>Test in a real environment</small></div><i>→</i>
+            <div><span>04</span><strong>PROD</strong><small>Ship after validation</small></div>
+          </div>
         </div>
       </section>
 
@@ -81,6 +95,9 @@
         <div class="case-section__content">
           <h2>A real product can also be a laboratory.</h2>
           <div class="case-section__copy"><p>QuintaCast has a small audience, so scale was never the reason to add analytics, deployment workflows or automation.</p><p>Those capabilities were introduced deliberately to learn through a real system with real users — without allowing experimentation to block the product’s core value.</p></div>
+        </div>
+        <div class="side-learning-visual" aria-label="Learning loop">
+          <div><span>Observe</span><strong>Real behavior</strong></div><b>→</b><div><span>Learn</span><strong>Small signals</strong></div><b>→</b><div><span>Change</span><strong>One thing</strong></div><b>→</b><div><span>Ship</span><strong>Back to reality</strong></div>
         </div>
       </section>
 
