@@ -8,9 +8,9 @@
 .side-challenge { padding-bottom: clamp(4rem, 7vw, 7rem); }
 .side-decisions { padding-bottom: clamp(7rem, 14vw, 14rem); }
 .side-decisions__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); margin-top: var(--space-4); }
-.side-decisions article { min-height: 24rem; display: flex; flex-direction: column; padding-top: var(--space-3); border-top: 1px solid var(--color-border); }
+.side-decisions article { display: flex; flex-direction: column; padding-top: var(--space-3); border-top: 1px solid var(--color-border); }
 .side-decision__number { color: var(--color-text-secondary); font-size: var(--font-size-sm); }
-.side-decisions h3 { max-width: 10ch; margin-top: auto; font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 500; line-height: .98; letter-spacing: -.05em; }
+.side-decisions h3 { max-width: 10ch; margin-top: clamp(2.25rem, 4vw, 4rem); font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 500; line-height: .98; letter-spacing: -.05em; }
 .side-decisions article > p:last-child { max-width: 24rem; margin-top: var(--space-2); color: var(--color-text-secondary); line-height: 1.5; }
 
 /* Keep the evolution on one line whenever the viewport can comfortably hold it. */
@@ -30,6 +30,6 @@
 @media (max-width: 768px) {
   .side-challenge { padding-bottom: var(--space-5); }
   .side-decisions__grid { grid-template-columns: 1fr; margin-top: var(--space-3); }
-  .side-decisions article { min-height: 18rem; }
+  .side-decisions h3 { margin-top: var(--space-3); }
   .side-evolution { justify-content: flex-start; margin-inline: 0; font-size: clamp(1.2rem, 6vw, 1.75rem); }
 }
